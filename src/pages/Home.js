@@ -28,7 +28,7 @@ function Home({ user }) {
         }}
       >
         <h1>
-          Hello new user. Welcome to PhotoMoto. <br />
+          Hello new user. <br/>Welcome to PhotoMoto. <br /><br/>
           Kindly signup or login to get the full experience of this app!
         </h1>
       </div>

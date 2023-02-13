@@ -41,5 +41,7 @@ The project has the ability for a user to create an account and login to the app
 
 ## Live Link:
 
+The site i hosted on netlify as: https://photo-moto.netlify.app/
+
 
 

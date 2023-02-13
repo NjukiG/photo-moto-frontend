@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import AlbumsForm from "../components/AlbumsForm";
 
-function AlbumsPage() {
+function AlbumsPage({user}) {
   const [albums, setAlbums] = useState([]);
   const [showAlbumsForm, setShowAlbumsForm] = useState(false);
 

@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import AlbumsForm from "../components/AlbumsForm";
+import AlbumList from "../components/AlbumList";
 
-function AlbumsPage({user}) {
+function AlbumsPage({ user }) {
   const [albums, setAlbums] = useState([]);
   const [showAlbumsForm, setShowAlbumsForm] = useState(false);
 
@@ -22,7 +23,7 @@ function AlbumsPage({user}) {
   return (
     <div>
       {showAlbumsForm ? (
-        <AlbumForm user={user} onAddAlbum={handleAddAlbum} />
+        <AlbumsForm user={user} onAddAlbum={handleAddAlbum} />
       ) : null}
       <button className="btn btn-outline-info" onClick={handleShowAlbumForm}>
         {showAlbumsForm ? "Collapse Album Form" : "Show Album Form"}

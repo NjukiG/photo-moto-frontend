@@ -7,7 +7,7 @@ function AlbumsPage({ user }) {
   const [showAlbumsForm, setShowAlbumsForm] = useState(false);
 
   useEffect(() => {
-    fetch("/albums")
+    fetch("http://127.0.0.1:3000/albums")
       .then((res) => res.json())
       .then((albumsArray) => setAlbums(albumsArray));
   }, []);

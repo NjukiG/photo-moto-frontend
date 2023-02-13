@@ -1,6 +1,7 @@
 import '../App.css';
 import Home from './Home';
 import AlbumsPage from './AlbumsPage';
+import PhotosPage from './PhotosPage';
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <Home />
       <AlbumsPage />
+      <PhotosPage />
     </div>
   );
 }

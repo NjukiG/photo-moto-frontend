@@ -22,7 +22,7 @@ function PhotoCard({ photo, onDeletePhoto, onUpdatePhoto }) {
       image_url: photo.image_url,
     };
 
-    fetch(`photos/${id}`, {
+    fetch(`/photos/${id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",

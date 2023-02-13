@@ -1,5 +1,6 @@
 import '../App.css';
 import Home from './Home';
+import LoginForm from './LoginForm';
 import AlbumsPage from './AlbumsPage';
 import PhotosPage from './PhotosPage';
 
@@ -10,6 +11,7 @@ function App() {
       <Home />
       <AlbumsPage />
       <PhotosPage />
+      <LoginForm />
     </div>
   );
 }

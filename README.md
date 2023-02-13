@@ -1,10 +1,10 @@
-#PhotoMoto
+# PhotoMoto
 
-#Author:
+# Author:
 
 George Njuki
 
-##Description:
+## Description:
 
 PhotoMoto is a photo saving app whereby users are able to share their favourite memories and other users who have registered acoounts are able to view and share their photos as well by creating albums and saving the photos in thos albums.
 

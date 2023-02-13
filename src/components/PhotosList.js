@@ -9,15 +9,14 @@ function PhotosList({ photos, onDeletePhoto, onUpdatePhoto }) {
         {photos &&
           photos.map((photo) => {
             return (
-              <>
+              <React.Fragment key={photo.id}>
                 <PhotoCard
-                  key={photo.id}
                   photo={photo}
                   onDeletePhoto={onDeletePhoto}
                   onUpdatePhoto={onUpdatePhoto}
                 />
                 <br />
-              </>
+              </React.Fragment>
             );
           })}
       </div>

@@ -1,4 +1,5 @@
 import '../App.css';
+import NavBar from './NavBar';
 import Home from './Home';
 import LoginForm from './LoginForm';
 import AlbumsPage from './AlbumsPage';
@@ -8,6 +9,7 @@ import SignupForm from './SignupForm';
 function App() {
   return (
     <div className="App">
+      <NavBar />
       <Home />
       <AlbumsPage />
       <PhotosPage />

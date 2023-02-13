@@ -3,7 +3,7 @@ import Home from './Home';
 import LoginForm from './LoginForm';
 import AlbumsPage from './AlbumsPage';
 import PhotosPage from './PhotosPage';
-
+import SignupForm from './SignupForm';
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
       <AlbumsPage />
       <PhotosPage />
       <LoginForm />
+      <SignupForm />
     </div>
   );
 }

@@ -9,7 +9,7 @@ function SignupForm({ setUser }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch("/signup", {
+    fetch("http://127.0.0.1:3000/signup", {
       method: "POST",
       headers: {
         "Content-TYpe": "application/json",

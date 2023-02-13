@@ -44,4 +44,11 @@ The project has the ability for a user to create an account and login to the app
 The site i hosted on netlify as: https://photo-moto.netlify.app/
 
 
+## The Page before Signing in:
+
+Screenshot from 2023-02-13 17-03-59.png
+
+
+
+
 

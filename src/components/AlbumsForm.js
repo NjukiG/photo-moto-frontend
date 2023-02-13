@@ -5,7 +5,7 @@ function AlbumsForm({ onAddAlbum }) {
 
   const handleAddAlbum = (e) => {
     e.preventDefault();
-    fetch("/albums", {
+    fetch("http://127.0.0.1:3000/albums", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

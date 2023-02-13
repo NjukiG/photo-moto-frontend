@@ -7,7 +7,7 @@ function PhotosForm({ onAddPhoto }) {
 
   const handleAddPhoto = (e) => {
     e.preventDefault();
-    fetch("/photos", {
+    fetch("http://127.0.0.1:3000/photos", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

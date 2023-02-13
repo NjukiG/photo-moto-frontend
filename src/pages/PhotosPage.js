@@ -9,7 +9,7 @@ function PhotosPage({ user }) {
   const [showPhotoForm, setShowPhotoForm] = useState(false);
 
   useEffect(() => {
-    fetch("/photos")
+    fetch("http://127.0.0.1:3000/photos")
       .then((res) => res.json())
       .then((photosArray) => setPhotos(photosArray));
   }, []);

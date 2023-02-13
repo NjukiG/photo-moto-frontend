@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+#PhotoMoto
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#Author:
 
-## Available Scripts
+George Njuki
 
-In the project directory, you can run:
+##Description:
 
-### `npm start`
+PhotoMoto is a photo saving app whereby users are able to share their favourite memories and other users who have registered acoounts are able to view and share their photos as well by creating albums and saving the photos in thos albums.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies used:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. React.js for the front end
+2. A Ruby on Rails backend service.
+3. SQLite3 for developement and Postgres for production.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features:
 
-### `npm run build`
+The project has the ability for a user to create an account and login to the app to view and share their photos.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. A loging and a signup page with authentication.
+2. An albums page where users are able to create new albums and post photos in them.
+3. A photos page where all photos are rendered and a search bar where you can search for specific photos rather than viewing all the photos.
+4. A button to delete a photo if you so wish.
+5. A user is also able to click on a photo from a card and a pop up for a full screen image should appear.
+6. A button for logging out after you are done. 
+7. A user can also maintain a session even after refreshing the page without being logged out.
+8. A well responsive UI to all devices.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Reaquirements:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Access to a computer or any other device with a UI and internet access.
+- A terminal to clone and install dependencies if you wish to run it locally.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Instructions:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. The application requires a user to sign up to access the full website. 
+2. Use image urls for image upload fields as active storage is not active for this application.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Live Link:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

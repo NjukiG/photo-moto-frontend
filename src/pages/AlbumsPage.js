@@ -7,7 +7,7 @@ function AlbumsPage({ user }) {
   const [showAlbumsForm, setShowAlbumsForm] = useState(false);
 
   useEffect(() => {
-    fetch("/albums")
+    fetch("/api/albums")
       .then((res) => res.json())
       .then((albumsArray) => setAlbums(albumsArray));
   }, []);

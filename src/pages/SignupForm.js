@@ -9,7 +9,7 @@ function SignupForm({ setUser }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch("/signup", {
+    fetch("/api/signup", {
       method: "POST",
       headers: {
         "Content-TYpe": "application/json",

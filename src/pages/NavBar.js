@@ -4,7 +4,7 @@ import "bootstrap/js/src/collapse.js";
 
 function NavBar({ user, setUser }) {
   const handleLogout = () => {
-    fetch("/logout", { method: "DELETE" }).then((res) => {
+    fetch("/api/logout", { method: "DELETE" }).then((res) => {
       if (res.ok) {
         setUser(null);
       }

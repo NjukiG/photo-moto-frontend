@@ -13,7 +13,7 @@ function App() {
   const [user, setUser] = useState(null);
 
   useEffect(() => {
-    fetch("/me").then((res) => {
+    fetch("/api/me").then((res) => {
       if (res.ok) {
         res.json().then((user) => setUser(user));
       }

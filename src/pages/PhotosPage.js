@@ -9,7 +9,7 @@ function PhotosPage({ user }) {
   const [showPhotoForm, setShowPhotoForm] = useState(false);
 
   useEffect(() => {
-    fetch("/photos")
+    fetch("/api/photos")
       .then((res) => res.json())
       .then((photosArray) => setPhotos(photosArray));
   }, []);

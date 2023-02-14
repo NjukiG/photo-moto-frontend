@@ -43,6 +43,10 @@ The project has the ability for a user to create an account and login to the app
 
 The site i hosted on netlify as: https://photo-moto.netlify.app/
 
+## Server:
+
+The database is hosted on Render as: https://photo-app-kh0g.onrender.com/
+
 
 ## The Page before Signing in:
 

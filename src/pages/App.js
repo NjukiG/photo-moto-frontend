@@ -13,7 +13,7 @@ function App() {
   const [user, setUser] = useState(null);
 
   useEffect(() => {
-    fetch("https://photo-app-kh0g.onrender.com/me").then((res) => {
+    fetch("/me").then((res) => {
       if (res.ok) {
         res.json().then((user) => setUser(user));
       }

@@ -7,7 +7,7 @@ function PhotosForm({ onAddPhoto }) {
 
   const handleAddPhoto = (e) => {
     e.preventDefault();
-    fetch("https://photo-app-kh0g.onrender.com/photos", {
+    fetch("/photos", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

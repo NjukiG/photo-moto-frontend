@@ -5,7 +5,7 @@ function PhotoCard({ photo, onDeletePhoto }) {
   const { id, title, image_url } = photo;
 
   function deletePhoto() {
-    fetch(`http://127.0.0.1:3000/photos/${id}`, {
+    fetch(`https://photo-app-kh0g.onrender.com/photos/${id}`, {
       method: "DELETE",
     }).then((r) => {
       if (r.ok) {

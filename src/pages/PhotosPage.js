@@ -9,7 +9,7 @@ function PhotosPage({ user }) {
   const [showPhotoForm, setShowPhotoForm] = useState(false);
 
   useEffect(() => {
-    fetch("http://127.0.0.1:3000/photos")
+    fetch("https://photo-app-kh0g.onrender.com/photos")
       .then((res) => res.json())
       .then((photosArray) => setPhotos(photosArray));
   }, []);

@@ -7,7 +7,7 @@ function PhotosForm({ onAddPhoto }) {
 
   const handleAddPhoto = (e) => {
     e.preventDefault();
-    fetch("/api/photos", {
+    fetch("/photos", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

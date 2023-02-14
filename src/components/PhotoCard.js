@@ -5,7 +5,7 @@ function PhotoCard({ photo, onDeletePhoto }) {
   const { id, title, image_url } = photo;
 
   function deletePhoto() {
-    fetch(`/api/photos/${id}`, {
+    fetch(`/photos/${id}`, {
       method: "DELETE",
     }).then((r) => {
       if (r.ok) {

@@ -5,7 +5,7 @@ function AlbumsForm({ onAddAlbum }) {
 
   const handleAddAlbum = (e) => {
     e.preventDefault();
-    fetch("/api/albums", {
+    fetch("/albums", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

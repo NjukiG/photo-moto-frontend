@@ -8,6 +8,7 @@ function PhotoSearch({ searchTerm, onSearchChange }) {
       <input
         type="text"
         id="search"
+        autoComplete="off"
         placeholder="Type a photo name to search..."
         value={searchTerm}
         onChange={(e) => onSearchChange(e.target.value)}

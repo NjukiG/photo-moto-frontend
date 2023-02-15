@@ -10,7 +10,9 @@ function LoginForm({ setUser }) {
     fetch("https://photo-app-kh0g.onrender.com/login", {
       method: "POST",
       headers: {
+        'Accept': 'application/json',
         "Content-Type": "application/json",
+        'Access-Control-Allow-Origin': '*',
       },
       body: JSON.stringify({ username, password }),
     }).then((res) => {

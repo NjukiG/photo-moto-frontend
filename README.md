@@ -47,12 +47,13 @@ The site i hosted on netlify as: https://photo-moto.netlify.app/
 
 The database is hosted on Render as: https://photo-app-kh0g.onrender.com/
 
+## Running Locally:
 
-## The Page before Signing in:
+To run the server locally, clone the repository and then npm install install to get all the dependencies.
+Then run npm start to fire up the UI.
 
-Screenshot from 2023-02-13 17-03-59.png
-
-
+- npm install
+- npm start
 
 
 

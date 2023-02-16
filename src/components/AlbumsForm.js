@@ -5,7 +5,7 @@ function AlbumsForm({ onAddAlbum }) {
 
   const handleAddAlbum = (e) => {
     e.preventDefault();
-    fetch("/albums", {
+    fetch("https://photo-app-kh0g.onrender.com/albums", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

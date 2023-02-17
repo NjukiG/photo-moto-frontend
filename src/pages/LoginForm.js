@@ -7,10 +7,11 @@ function LoginForm({ setUser }) {
   const handleLogin = (e) => {
     e.preventDefault();
 
-    fetch("https://photo-app-kh0g.onrender.com/login", {
+    fetch(`https://photo-app-kh0g.onrender.com/login`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
+        // 'Accept': 'application/json',
       },
       body: JSON.stringify({ username, password }),
     }).then((res) => {

@@ -7,7 +7,7 @@ function AlbumsPage({ user }) {
   const [showAlbumsForm, setShowAlbumsForm] = useState(false);
 
   useEffect(() => {
-    fetch("https://photo-app-kh0g.onrender.com/albums")
+    fetch(`https://photo-app-kh0g.onrender.com/albums`)
       .then((res) => res.json())
       .then((albumsArray) => setAlbums(albumsArray));
   }, []);

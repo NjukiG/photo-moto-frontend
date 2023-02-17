@@ -4,7 +4,7 @@ import "bootstrap/js/src/collapse.js";
 
 function NavBar({ user, setUser }) {
   const handleLogout = () => {
-    fetch("https://photo-app-kh0g.onrender.com/logout", { method: "DELETE" }).then((res) => {
+    fetch("https://photo-app-kh0g.onrender.com/api/logout", { method: "DELETE" }).then((res) => {
       if (res.ok) {
         setUser(null);
       }

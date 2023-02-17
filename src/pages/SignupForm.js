@@ -9,7 +9,7 @@ function SignupForm({ setUser }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch("https://photo-app-kh0g.onrender.com/signup", {
+    fetch("https://photo-app-kh0g.onrender.com/api/signup", {
       method: "POST",
       headers: {
         "Content-TYpe": "application/json",

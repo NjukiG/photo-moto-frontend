@@ -26,7 +26,7 @@ function App() {
       <main>
         {user ? (
           <Routes>
-            <Route exact path="/" element={<Home user={user} />} />
+            <Route exact='true' path="/homepage" element={<Home user={user} />} />
             <Route path="/albums" element={<AlbumsPage user={user} />} />
             <Route path="/photos" element={<PhotosPage user={user} />} />
           </Routes>
@@ -34,7 +34,7 @@ function App() {
           <Routes>
             <Route path="/login" element={<LoginForm setUser={setUser} />} />
             <Route path="/signup" element={<SignupForm setUser={setUser} />} />
-            <Route path="/" element={<Home />} />
+            <Route exact='true' path="/homepage" element={<Home />} />
           </Routes>
         )}
       </main>

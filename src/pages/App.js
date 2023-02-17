@@ -13,7 +13,7 @@ function App() {
   const [user, setUser] = useState(null);
 
   useEffect(() => {
-    fetch("https://photo-app-kh0g.onrender.com/api/me").then((res) => {
+    fetch("https://photo-app-kh0g.onrender.com/me").then((res) => {
       if (res.ok) {
         res.json().then((user) => setUser(user));
       }
@@ -26,7 +26,7 @@ function App() {
       <main>
         {user ? (
           <Routes>
-            <Route exact='true' path="/homepage" element={<Home user={user} />} />
+            <Route exact='true' path="/" element={<Home user={user} />} />
             <Route path="/albums" element={<AlbumsPage user={user} />} />
             <Route path="/photos" element={<PhotosPage user={user} />} />
           </Routes>
@@ -34,7 +34,7 @@ function App() {
           <Routes>
             <Route path="/login" element={<LoginForm setUser={setUser} />} />
             <Route path="/signup" element={<SignupForm setUser={setUser} />} />
-            <Route exact='true' path="/homepage" element={<Home />} />
+            <Route exact='true' path="/" element={<Home />} />
           </Routes>
         )}
       </main>

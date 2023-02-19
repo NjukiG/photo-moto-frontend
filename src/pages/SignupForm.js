@@ -12,7 +12,8 @@ function SignupForm({ setUser }) {
     fetch(`https://photo-app-kh0g.onrender.com/signup`, {
       method: "POST",
       headers: {
-        "Content-TYpe": "application/json",
+        "Content-Type": "application/json",
+        'Accept': 'application/json',
       },
       body: JSON.stringify({
         name,

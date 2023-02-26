@@ -3,7 +3,7 @@ import AlbumsForm from "../components/AlbumsForm";
 import AlbumList from "../components/AlbumList";
 
 function AlbumsPage({ user }) {
-  const [albums, setAlbums] = useState({});
+  const [albums, setAlbums] = useState([]);
   const [showAlbumsForm, setShowAlbumsForm] = useState(false);
 
   useEffect(() => {

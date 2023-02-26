@@ -6,7 +6,7 @@ function PhotosList({ photos, onDeletePhoto, onUpdatePhoto }) {
     <div className="container">
       <h3>A list of all the photos.</h3>
       <div className="row row-cols-1 row-cols-md-3 g-4">
-        {photos &&
+        {photos.length > 0 &&
           photos.map((photo) => {
             return (
               <React.Fragment key={photo.id}>

@@ -8,7 +8,6 @@ function Home({ user }) {
         style={{
           marginTop: 150,
           padding: 20,
-          backgroundImage: `url(${"https://www.lifewire.com/thmb/L9Y504uqsScKT8iT3ZwFaMVCEdg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-529231383-crop-5a29aff9eb4d52003646ed43.jpg"})`,
         }}
       >
         <h1>
@@ -28,7 +27,9 @@ function Home({ user }) {
         }}
       >
         <h1>
-          Hello new user. <br/>Welcome to PhotoMoto. <br /><br/>
+          Hello new user. <br />
+          Welcome to PhotoMoto. <br />
+          <br />
           Kindly signup or login to get the full experience of this app!
         </h1>
       </div>

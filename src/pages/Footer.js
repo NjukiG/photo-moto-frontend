@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
 
 function Footer() {
   return (
-    <div>Footer Component</div>
-  )
+   
+      <footer className="footer">
+        <p>© 2023 George N - Photo-Moto App.</p>
+      </footer>
+  );
 }
 
-export default Footer
+export default Footer;

@@ -40,3 +40,11 @@ main {
 .photo {
   width: 400px;
 }
+
+footer{
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin-top: 220px;
+}
